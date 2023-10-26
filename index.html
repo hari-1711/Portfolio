@@ -59,9 +59,9 @@
                         <h5>Software Engineer</h5>
                         <p>Coding Studio (2021-Now)</p>
                     </div>
-                    <button class="btn button">More Info</button>
+                    <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
-                <p class="about-exp-item-detail d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.</p>
+                <p class="about-exp-item-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.</p>
             </div>
             <div class="about-exp-item">
                 <div class="about-exp-item-header">
@@ -69,9 +69,9 @@
                         <h5>Software Engineer</h5>
                         <p>Coding Studio (2021-Now)</p>
                     </div>
-                    <button class="btn button">More Info</button>
+                    <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
-                <p class="about-exp-item-detail d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.</p>
+                <p class="about-exp-item-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.</p>
             </div>
             <div class="about-exp-item">
                 <div class="about-exp-item-header">
@@ -79,9 +79,67 @@
                         <h5>Software Engineer</h5>
                         <p>Coding Studio (2021-Now)</p>
                     </div>
-                    <button class="btn button">More Info</button>
+                    <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
-                <p class="about-exp-item-detail d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.</p>
+                <p class="about-exp-item-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.</p>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="work container">
+        <div class="row d-flex align-items-center gap-5">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione at aspernatur, similique repellendus cum obcaecati necessitatibus, ullam odio minima iure minus inventore, nobis hic dolorum sed. Debitis voluptas quo, veniam repellat est odit assumenda, ea beatae facilis aliquam maxime ab magnam. Provident iste esse officiis deserunt laborum repellendus, architecto placeat?</p>
+            </div>
+            <div class="col work-img">
+                <div id="work-1" class="work-img-item">    
+                    <img src="images/work-1.png" alt="work 1" >
+                </div>
+                <div id="work-2" class="work-img-item">    
+                    <img src="images/work-2.png" alt="work 2" >
+                </div>
+                <div id="work-3" class="work-img-item">    
+                    <img src="images/work-3.png" alt="work 3" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact container">
+        <div class="row d-flex align-items-center gap-5">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aperiam saepe optio, fugit fuga laudantium, minus magnam deleniti cumque illo tempora tempore facilis aliquam modi quisquam dicta assumenda animi eligendi sunt. Cumque perferendis natus, consectetur accusantium, eius blanditiis quas, delectus atque cum commodi molestiae! Cupiditate quod vitae ab molestias! Impedit!</p>
+                <div class="row">
+                    <div class="col d-flex align-items-center">
+                        <img src="images/Facebook.svg" alt="facebook icon">
+                        <p>Hari Kusuma</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <img src="images/Instagram.svg" alt="instagram icon">
+                        <p>@john_doe</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <img src="images/Twitter.svg" alt="twitter icon">
+                        <p>@john_doe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <form class="contact-form">
+                    <div class="mb-3">
+                      <label for="inp_email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="inp_email" placeholder="example@email.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="inp_subject" class="form-label">Subject</label>
+                      <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inp_message" class="form-label">Message</label>
+                        <input type="text" class="form-control" id="inp_message" placeholder="Your Message">
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button type="submit" class="btn button">Submit</button>
+                    </div>
+                  </form>
             </div>
         </div>
     </section>
